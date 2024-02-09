@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+    height: 70vh;
+}
+
+#title
+{
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 13%;
+    /* width: 100px; */
+}
+
+#title h1
+{
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 90px;
+}
+
+#slogan
+{
+    color: peachpuff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+    font-size: large;
+}
+
+#buttonHome
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#buttonHome button
+{
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    background-color: white;
+}
+
+#buttonHome button:hover
+{
+    background-color: bisque;
+}
